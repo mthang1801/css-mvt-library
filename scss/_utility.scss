@@ -1,0 +1,71 @@
+//Set background color
+.bg{
+  &-success{
+    @include set-background($success-color);
+  }
+  &-primary{
+    @include set-background($primary-color);
+  }
+  &-secondary{
+    @include set-background($secondary-color);
+  }
+  &-light{
+    @include set-background($light-color);
+  }
+  &-dark{
+    @include set-background($dark-color);
+  }
+  &-danger{
+    @include set-background($danger-color);
+  }
+  &-warning{
+    @include set-background($warning-color);
+  }
+}
+
+//Set font size
+.x-large{
+  font-size : 3.5rem;
+}
+
+.large{
+  font-size : 2.5rem;
+}
+
+//Text color
+.text{
+  &-primary{
+    color : $primary-color;
+  }
+  &-secondary{
+    color : $secondary-color;
+  }
+  &-dark{
+    color : $dark-color;
+  }
+  &-light{
+    color : $light-color;
+  }
+  &-success{
+    color : $success-color;
+  }
+  &-warning{
+    color : $warning-color;
+  }
+  &-danger{
+    color : $danger-color;
+  }
+}
+
+//Container
+.container{
+  width : 1100px;
+  display : block;
+  margin : 0 auto;
+}
+
+.row{
+  display : flex ;
+  flex-wrap: wrap;  
+}
+
